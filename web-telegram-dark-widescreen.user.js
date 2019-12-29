@@ -17,6 +17,7 @@ GM_addStyle('.page_wrap { background-color: #232323; color: #fff;}');
 GM_addStyle('.im_page_wrap { max-width: initial; background-color: #232323; box-shadow: 0px 1px 0 #2b2b2b; border-left: 1px solid #2b2b2b;border-right: 1px solid #2b2b2b;border-bottom: 1px solid #2b2b2b;}');
 GM_addStyle('.im_dialogs_col_wrap { width: 20%; border-right: 2px solid #2b2b2b;}');
 GM_addStyle('.tg_head_split { max-width: initial;background-color: #3c3c3c;}');
+GM_addStyle('.tg_head_main_wrap { width: 80%; }');
 GM_addStyle('.dropdown.open .tg_head_btn, .tg_head_btn:hover { background-color: #4e4e4e;}');
 GM_addStyle('.im_dialogs_scrollable_wrap .active a.im_dialog:hover, .im_dialogs_scrollable_wrap .active a.im_dialog_selected{ background-color: #4e4e4e;}');
 GM_addStyle('.im_dialog_peer { color: #eee;}');
@@ -31,6 +32,7 @@ GM_addStyle('.im_dialog_badge_muted { background-color: #444444;}');
 // scroll bar
 GM_addStyle('.im_history_col .nano > .nano-pane > .nano-slider, .contacts_modal_col .nano > .nano-pane > .nano-slider, .sessions_modal_col .nano > .nano-pane > .nano-slider, .stickerset_modal_col .nano > .nano-pane > .nano-slider, .im_dialogs_modal_col .nano > .nano-pane > .nano-slider { background: rgba(66, 66, 66, 0.5);}');
 GM_addStyle('.im_dialogs_col .nano > .nano-pane > .nano-slider { background: rgba(220, 220, 220, 0.3);}');
+GM_addStyle('.im_history_col_wrap { width: 80%; }');
 
 // selected message
 GM_addStyle('.im_message_wrap { max-width: initial; }');
@@ -48,6 +50,10 @@ GM_addStyle('.im_message_reply_author { color: #c1e2ff; }');
 
 // unread messages banner
 GM_addStyle('.im_message_unread_split { background: #444; color: #cacaca;}');
+
+// im panel
+GM_addStyle('.im_send_panel_wrap { max-width: none;}');
+GM_addStyle('.im_send_form { max-width: none;}');
 
 // search field
 GM_addStyle('.im_dialogs_search_field { border: 1px solid #333; background-color: #333;}');
