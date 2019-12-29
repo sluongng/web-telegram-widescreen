@@ -68,6 +68,7 @@ GM_addStyle('a.tg_checkbox, p.tg_checkbox { color: #fff;');
 // dropdown menu
 GM_addStyle('.dropdown-menu { background-color: #404040; }');
 GM_addStyle('.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover { background-color: #545454; }');
+GM_addStyle('.tg_head_logo_wrap { width: 20%; }');
 GM_addStyle('.tg_head_logo_dropdown .dropdown-menu > li > a:hover { background: #545454; }')
 GM_addStyle('.tg_head_logo_dropdown .dropdown-menu > li > a {color: #fff;}')
 GM_addStyle('.tg_head_logo_dropdown .dropdown-menu { border-left-color: #383838; border-right-color: #383838; -webkit-box-shadow: 0px 1px 3px 0px rgba(78, 78, 78, 0.27); -moz-box-shadow: 0px 1px 3px 0px rgba(60, 75, 87, 0.27); box-shadow: 0px 1px 3px 0px rgba(39, 39, 39, 0.27); }')
